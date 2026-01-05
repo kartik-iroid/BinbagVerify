@@ -18539,6 +18539,392 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BinbagVerifyPackage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDScanDocumentTypeVC",
+        "printedName": "IDScanDocumentTypeVC",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC(im)viewDidLoad",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC11viewDidLoadyyF",
+            "moduleName": "BinbagVerifyPackage",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfSections",
+            "printedName": "numberOfSections(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC(im)numberOfSectionsInTableView:",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC16numberOfSections2inSiSo11UITableViewC_tF",
+            "moduleName": "BinbagVerifyPackage",
+            "objc_name": "numberOfSectionsInTableView:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:numberOfRowsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC(im)tableView:numberOfRowsInSection:",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC9tableView_21numberOfRowsInSectionSiSo07UITableI0C_SitF",
+            "moduleName": "BinbagVerifyPackage",
+            "objc_name": "tableView:numberOfRowsInSection:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:cellForRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableViewCell",
+                "printedName": "UIKit.UITableViewCell",
+                "usr": "c:objc(cs)UITableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC(im)tableView:cellForRowAtIndexPath:",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC9tableView_12cellForRowAtSo07UITableI4CellCSo0nI0C_10Foundation9IndexPathVtF",
+            "moduleName": "BinbagVerifyPackage",
+            "objc_name": "tableView:cellForRowAtIndexPath:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tableView",
+            "printedName": "tableView(_:didSelectRowAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC(im)tableView:didSelectRowAtIndexPath:",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC9tableView_14didSelectRowAtySo07UITableI0C_10Foundation9IndexPathVtF",
+            "moduleName": "BinbagVerifyPackage",
+            "objc_name": "tableView:didSelectRowAtIndexPath:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IDScanDocumentTypeVC",
+                "printedName": "BinbagVerifyPackage.IDScanDocumentTypeVC",
+                "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC(im)initWithNibName:bundle:",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "BinbagVerifyPackage",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BinbagVerifyPackage.IDScanDocumentTypeVC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDScanDocumentTypeVC",
+                    "printedName": "BinbagVerifyPackage.IDScanDocumentTypeVC",
+                    "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC(im)initWithCoder:",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "BinbagVerifyPackage",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BinbagVerifyPackage@objc(cs)IDScanDocumentTypeVC",
+        "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC",
+        "moduleName": "BinbagVerifyPackage",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18741,6 +19127,66 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BinbagVerifyPackage.IDDocumentType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDDocumentType",
+                    "printedName": "BinbagVerifyPackage.IDDocumentType",
+                    "usr": "s:19BinbagVerifyPackage14IDDocumentTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BinbagVerifyPackage14IDDocumentTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s19BinbagVerifyPackage14IDDocumentTypeO8allCasesSayACGvpZ",
+            "moduleName": "BinbagVerifyPackage",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BinbagVerifyPackage.IDDocumentType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDDocumentType",
+                        "printedName": "BinbagVerifyPackage.IDDocumentType",
+                        "usr": "s:19BinbagVerifyPackage14IDDocumentTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BinbagVerifyPackage14IDDocumentTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s19BinbagVerifyPackage14IDDocumentTypeO8allCasesSayACGvgZ",
+                "moduleName": "BinbagVerifyPackage",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -18835,66 +19281,6 @@
             "moduleName": "BinbagVerifyPackage",
             "implicit": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "allCases",
-            "printedName": "allCases",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[BinbagVerifyPackage.IDDocumentType]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IDDocumentType",
-                    "printedName": "BinbagVerifyPackage.IDDocumentType",
-                    "usr": "s:19BinbagVerifyPackage14IDDocumentTypeO"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19BinbagVerifyPackage14IDDocumentTypeO8allCasesSayACGvpZ",
-            "mangledName": "$s19BinbagVerifyPackage14IDDocumentTypeO8allCasesSayACGvpZ",
-            "moduleName": "BinbagVerifyPackage",
-            "static": true,
-            "implicit": true,
-            "declAttributes": [
-              "Nonisolated"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[BinbagVerifyPackage.IDDocumentType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IDDocumentType",
-                        "printedName": "BinbagVerifyPackage.IDDocumentType",
-                        "usr": "s:19BinbagVerifyPackage14IDDocumentTypeO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19BinbagVerifyPackage14IDDocumentTypeO8allCasesSayACGvgZ",
-                "mangledName": "$s19BinbagVerifyPackage14IDDocumentTypeO8allCasesSayACGvgZ",
-                "moduleName": "BinbagVerifyPackage",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
           }
         ],
         "declKind": "Enum",
