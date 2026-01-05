@@ -28,10 +28,9 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public struct BinbagVerifyConfig {
   public let apiKey: Swift.String
-  public let email: Swift.String
   public let environment: BinbagVerifyPackage.BinbagEnvironment
   public let primaryColor: UIKit.UIColor
-  public init(apiKey: Swift.String, email: Swift.String, environment: BinbagVerifyPackage.BinbagEnvironment = .production, primaryColor: UIKit.UIColor = .systemBlue)
+  public init(apiKey: Swift.String, environment: BinbagVerifyPackage.BinbagEnvironment = .production, primaryColor: UIKit.UIColor = .systemBlue)
 }
 public enum BinbagEnvironment {
   case development
@@ -83,16 +82,16 @@ public protocol BinbagVerifyDelegate : AnyObject {
   final public var isConfigured: Swift.Bool {
     get
   }
-  public static func startDocumentScan(completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
-  public static func startFaceDetection(completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
-  public static func start(type: BinbagVerifyPackage.BinbagVerificationType, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
-  final public func startVerification(from presentingViewController: UIKit.UIViewController, type: BinbagVerifyPackage.BinbagVerificationType = .documentScan, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  public static func startDocumentScan(email: Swift.String? = nil, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  public static func startFaceDetection(email: Swift.String, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  public static func start(type: BinbagVerifyPackage.BinbagVerificationType, email: Swift.String? = nil, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  final public func startVerification(from presentingViewController: UIKit.UIViewController, type: BinbagVerifyPackage.BinbagVerificationType = .documentScan, email: Swift.String? = nil, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
   @objc deinit
 }
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency public func presentBinbagDocumentScan(completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func presentBinbagFaceDetection(completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func presentBinbagVerification(type: BinbagVerifyPackage.BinbagVerificationType = .documentScan, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func presentBinbagDocumentScan(email: Swift.String? = nil, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func presentBinbagFaceDetection(email: Swift.String, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func presentBinbagVerification(type: BinbagVerifyPackage.BinbagVerificationType = .documentScan, email: Swift.String? = nil, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
 }
 @available(iOS 14.0, *)
 @_Concurrency.MainActor @preconcurrency public struct BinbagVerifyModifier : SwiftUICore.ViewModifier {
@@ -103,16 +102,16 @@ extension UIKit.UIViewController {
 }
 @available(iOS 14.0, *)
 extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func binbagDocumentScan(isPresented: SwiftUICore.Binding<Swift.Bool>, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void) -> some SwiftUICore.View
+  @_Concurrency.MainActor @preconcurrency public func binbagDocumentScan(isPresented: SwiftUICore.Binding<Swift.Bool>, email: Swift.String? = nil, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void) -> some SwiftUICore.View
   
-  @_Concurrency.MainActor @preconcurrency public func binbagFaceDetection(isPresented: SwiftUICore.Binding<Swift.Bool>, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void) -> some SwiftUICore.View
+  @_Concurrency.MainActor @preconcurrency public func binbagFaceDetection(isPresented: SwiftUICore.Binding<Swift.Bool>, email: Swift.String, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void) -> some SwiftUICore.View
   
-  @_Concurrency.MainActor @preconcurrency public func binbagVerify(isPresented: SwiftUICore.Binding<Swift.Bool>, type: BinbagVerifyPackage.BinbagVerificationType = .documentScan, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void) -> some SwiftUICore.View
+  @_Concurrency.MainActor @preconcurrency public func binbagVerify(isPresented: SwiftUICore.Binding<Swift.Bool>, type: BinbagVerifyPackage.BinbagVerificationType = .documentScan, email: Swift.String? = nil, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void) -> some SwiftUICore.View
   
 }
 @available(iOS 14.0, *)
 @_Concurrency.MainActor @preconcurrency public struct BinbagVerifyView : SwiftUI.UIViewControllerRepresentable {
-  @_Concurrency.MainActor @preconcurrency public init(verificationType: BinbagVerifyPackage.BinbagVerificationType = .documentScan, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void, onDismiss: @escaping () -> Swift.Void = {})
+  @_Concurrency.MainActor @preconcurrency public init(verificationType: BinbagVerifyPackage.BinbagVerificationType = .documentScan, email: Swift.String? = nil, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void, onDismiss: @escaping () -> Swift.Void = {})
   @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: BinbagVerifyPackage.BinbagVerifyView.Context) -> UIKit.UINavigationController
   @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: UIKit.UINavigationController, context: BinbagVerifyPackage.BinbagVerifyView.Context)
   @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> BinbagVerifyPackage.BinbagVerifyView.Coordinator
@@ -126,7 +125,7 @@ extension SwiftUICore.View {
 }
 @available(iOS 14.0, *)
 @_Concurrency.MainActor @preconcurrency public struct BinbagVerifyButton : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String = "Verify Identity", verificationType: BinbagVerifyPackage.BinbagVerificationType = .documentScan, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String = "Verify Identity", verificationType: BinbagVerifyPackage.BinbagVerificationType = .documentScan, email: Swift.String? = nil, onResult: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -161,9 +160,10 @@ public class BinbagVerifyManager : Foundation.ObservableObject {
     set
   }
   public var verificationType: BinbagVerifyPackage.BinbagVerificationType
-  public func startDocumentScan(completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
-  public func startFaceDetection(completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
-  public func start(type: BinbagVerifyPackage.BinbagVerificationType = .documentScan, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  public var email: Swift.String?
+  public func startDocumentScan(email: Swift.String? = nil, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  public func startFaceDetection(email: Swift.String, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
+  public func start(type: BinbagVerifyPackage.BinbagVerificationType = .documentScan, email: Swift.String? = nil, completion: @escaping (BinbagVerifyPackage.BinbagVerificationResult) -> Swift.Void)
   @available(iOS 14.0, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
