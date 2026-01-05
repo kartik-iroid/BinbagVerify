@@ -18581,6 +18581,53 @@
           },
           {
             "kind": "Function",
+            "name": "showLoader",
+            "printedName": "showLoader()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BinbagVerifyPackage20IDScanDocumentTypeVCC10showLoaderyyF",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC10showLoaderyyF",
+            "moduleName": "BinbagVerifyPackage",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideLoader",
+            "printedName": "hideLoader()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BinbagVerifyPackage20IDScanDocumentTypeVCC10hideLoaderyyF",
+            "mangledName": "$s19BinbagVerifyPackage20IDScanDocumentTypeVCC10hideLoaderyyF",
+            "moduleName": "BinbagVerifyPackage",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "numberOfSections",
             "printedName": "numberOfSections(in:)",
             "children": [
