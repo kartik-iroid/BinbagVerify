@@ -134,50 +134,6 @@
           },
           {
             "kind": "Var",
-            "name": "email",
-            "printedName": "email",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19BinbagVerifyPackage0aB6ConfigV5emailSSvp",
-            "mangledName": "$s19BinbagVerifyPackage0aB6ConfigV5emailSSvp",
-            "moduleName": "BinbagVerifyPackage",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19BinbagVerifyPackage0aB6ConfigV5emailSSvg",
-                "mangledName": "$s19BinbagVerifyPackage0aB6ConfigV5emailSSvg",
-                "moduleName": "BinbagVerifyPackage",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "environment",
             "printedName": "environment",
             "children": [
@@ -267,19 +223,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiKey:email:environment:primaryColor:)",
+            "printedName": "init(apiKey:environment:primaryColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "BinbagVerifyConfig",
                 "printedName": "BinbagVerifyPackage.BinbagVerifyConfig",
                 "usr": "s:19BinbagVerifyPackage0aB6ConfigV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -303,8 +253,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19BinbagVerifyPackage0aB6ConfigV6apiKey5email11environment12primaryColorACSS_SSAA0A11EnvironmentOSo7UIColorCtcfc",
-            "mangledName": "$s19BinbagVerifyPackage0aB6ConfigV6apiKey5email11environment12primaryColorACSS_SSAA0A11EnvironmentOSo7UIColorCtcfc",
+            "usr": "s:19BinbagVerifyPackage0aB6ConfigV6apiKey11environment12primaryColorACSS_AA0A11EnvironmentOSo7UIColorCtcfc",
+            "mangledName": "$s19BinbagVerifyPackage0aB6ConfigV6apiKey11environment12primaryColorACSS_AA0A11EnvironmentOSo7UIColorCtcfc",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "AccessControl"
@@ -1800,12 +1750,27 @@
           {
             "kind": "Function",
             "name": "startDocumentScan",
-            "printedName": "startDocumentScan(completion:)",
+            "printedName": "startDocumentScan(email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -1827,8 +1792,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19BinbagVerifyPackage0aB0C17startDocumentScan10completionyyAA0A18VerificationResultVc_tFZ",
-            "mangledName": "$s19BinbagVerifyPackage0aB0C17startDocumentScan10completionyyAA0A18VerificationResultVc_tFZ",
+            "usr": "s:19BinbagVerifyPackage0aB0C17startDocumentScan5email10completionySSSg_yAA0A18VerificationResultVctFZ",
+            "mangledName": "$s19BinbagVerifyPackage0aB0C17startDocumentScan5email10completionySSSg_yAA0A18VerificationResultVctFZ",
             "moduleName": "BinbagVerifyPackage",
             "static": true,
             "declAttributes": [
@@ -1841,12 +1806,18 @@
           {
             "kind": "Function",
             "name": "startFaceDetection",
-            "printedName": "startFaceDetection(completion:)",
+            "printedName": "startFaceDetection(email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -1868,8 +1839,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19BinbagVerifyPackage0aB0C18startFaceDetection10completionyyAA0A18VerificationResultVc_tFZ",
-            "mangledName": "$s19BinbagVerifyPackage0aB0C18startFaceDetection10completionyyAA0A18VerificationResultVc_tFZ",
+            "usr": "s:19BinbagVerifyPackage0aB0C18startFaceDetection5email10completionySS_yAA0A18VerificationResultVctFZ",
+            "mangledName": "$s19BinbagVerifyPackage0aB0C18startFaceDetection5email10completionySS_yAA0A18VerificationResultVctFZ",
             "moduleName": "BinbagVerifyPackage",
             "static": true,
             "declAttributes": [
@@ -1882,7 +1853,7 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(type:completion:)",
+            "printedName": "start(type:email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1896,6 +1867,21 @@
                 "usr": "s:19BinbagVerifyPackage0A16VerificationTypeO"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(BinbagVerifyPackage.BinbagVerificationResult) -> ()",
@@ -1915,8 +1901,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19BinbagVerifyPackage0aB0C5start4type10completionyAA0A16VerificationTypeO_yAA0aG6ResultVctFZ",
-            "mangledName": "$s19BinbagVerifyPackage0aB0C5start4type10completionyAA0A16VerificationTypeO_yAA0aG6ResultVctFZ",
+            "usr": "s:19BinbagVerifyPackage0aB0C5start4type5email10completionyAA0A16VerificationTypeO_SSSgyAA0aH6ResultVctFZ",
+            "mangledName": "$s19BinbagVerifyPackage0aB0C5start4type5email10completionyAA0A16VerificationTypeO_SSSgyAA0aH6ResultVctFZ",
             "moduleName": "BinbagVerifyPackage",
             "static": true,
             "declAttributes": [
@@ -1929,7 +1915,7 @@
           {
             "kind": "Function",
             "name": "startVerification",
-            "printedName": "startVerification(from:type:completion:)",
+            "printedName": "startVerification(from:type:email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1950,6 +1936,21 @@
                 "usr": "s:19BinbagVerifyPackage0A16VerificationTypeO"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(BinbagVerifyPackage.BinbagVerificationResult) -> ()",
@@ -1969,8 +1970,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19BinbagVerifyPackage0aB0C17startVerification4from4type10completionySo16UIViewControllerC_AA0aE4TypeOyAA0aE6ResultVctF",
-            "mangledName": "$s19BinbagVerifyPackage0aB0C17startVerification4from4type10completionySo16UIViewControllerC_AA0aE4TypeOyAA0aE6ResultVctF",
+            "usr": "s:19BinbagVerifyPackage0aB0C17startVerification4from4type5email10completionySo16UIViewControllerC_AA0aE4TypeOSSSgyAA0aE6ResultVctF",
+            "mangledName": "$s19BinbagVerifyPackage0aB0C17startVerification4from4type5email10completionySo16UIViewControllerC_AA0aE4TypeOSSSgyAA0aE6ResultVctF",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "Final",
@@ -2147,7 +2148,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(verificationType:onResult:onDismiss:)",
+            "printedName": "init(verificationType:email:onResult:onDismiss:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2161,6 +2162,21 @@
                 "printedName": "BinbagVerifyPackage.BinbagVerificationType",
                 "hasDefaultArg": true,
                 "usr": "s:19BinbagVerifyPackage0A16VerificationTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -2200,8 +2216,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19BinbagVerifyPackage0aB4ViewV16verificationType8onResult0G7DismissAcA0a12VerificationF0O_yAA0ajH0Vcyyctcfc",
-            "mangledName": "$s19BinbagVerifyPackage0aB4ViewV16verificationType8onResult0G7DismissAcA0a12VerificationF0O_yAA0ajH0Vcyyctcfc",
+            "usr": "s:19BinbagVerifyPackage0aB4ViewV16verificationType5email8onResult0H7DismissAcA0a12VerificationF0O_SSSgyAA0akI0Vcyyctcfc",
+            "mangledName": "$s19BinbagVerifyPackage0aB4ViewV16verificationType5email8onResult0H7DismissAcA0a12VerificationF0O_SSSgyAA0akI0Vcyyctcfc",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "Preconcurrency",
@@ -2526,7 +2542,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(title:verificationType:onResult:)",
+            "printedName": "init(title:verificationType:email:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2549,6 +2565,21 @@
                 "usr": "s:19BinbagVerifyPackage0A16VerificationTypeO"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(BinbagVerifyPackage.BinbagVerificationResult) -> ()",
@@ -2568,8 +2599,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19BinbagVerifyPackage0aB6ButtonV5title16verificationType8onResultACSS_AA0a12VerificationG0OyAA0ajI0Vctcfc",
-            "mangledName": "$s19BinbagVerifyPackage0aB6ButtonV5title16verificationType8onResultACSS_AA0a12VerificationG0OyAA0ajI0Vctcfc",
+            "usr": "s:19BinbagVerifyPackage0aB6ButtonV5title16verificationType5email8onResultACSS_AA0a12VerificationG0OSSSgyAA0akJ0Vctcfc",
+            "mangledName": "$s19BinbagVerifyPackage0aB6ButtonV5title16verificationType5email8onResultACSS_AA0a12VerificationG0OSSSgyAA0akJ0Vctcfc",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "Preconcurrency",
@@ -3283,14 +3314,143 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BinbagVerifyPackage0aB7ManagerC5emailSSSgvp",
+            "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC5emailSSSgvp",
+            "moduleName": "BinbagVerifyPackage",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BinbagVerifyPackage0aB7ManagerC5emailSSSgvg",
+                "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC5emailSSSgvg",
+                "moduleName": "BinbagVerifyPackage",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BinbagVerifyPackage0aB7ManagerC5emailSSSgvs",
+                "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC5emailSSSgvs",
+                "moduleName": "BinbagVerifyPackage",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BinbagVerifyPackage0aB7ManagerC5emailSSSgvM",
+                "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC5emailSSSgvM",
+                "moduleName": "BinbagVerifyPackage",
+                "implicit": true,
+                "intro_iOS": "14.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "startDocumentScan",
-            "printedName": "startDocumentScan(completion:)",
+            "printedName": "startDocumentScan(email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -3312,8 +3472,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19BinbagVerifyPackage0aB7ManagerC17startDocumentScan10completionyyAA0A18VerificationResultVc_tF",
-            "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC17startDocumentScan10completionyyAA0A18VerificationResultVc_tF",
+            "usr": "s:19BinbagVerifyPackage0aB7ManagerC17startDocumentScan5email10completionySSSg_yAA0A18VerificationResultVctF",
+            "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC17startDocumentScan5email10completionySSSg_yAA0A18VerificationResultVctF",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "AccessControl",
@@ -3324,12 +3484,18 @@
           {
             "kind": "Function",
             "name": "startFaceDetection",
-            "printedName": "startFaceDetection(completion:)",
+            "printedName": "startFaceDetection(email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -3351,8 +3517,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19BinbagVerifyPackage0aB7ManagerC18startFaceDetection10completionyyAA0A18VerificationResultVc_tF",
-            "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC18startFaceDetection10completionyyAA0A18VerificationResultVc_tF",
+            "usr": "s:19BinbagVerifyPackage0aB7ManagerC18startFaceDetection5email10completionySS_yAA0A18VerificationResultVctF",
+            "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC18startFaceDetection5email10completionySS_yAA0A18VerificationResultVctF",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "AccessControl",
@@ -3363,7 +3529,7 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(type:completion:)",
+            "printedName": "start(type:email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3378,6 +3544,21 @@
                 "usr": "s:19BinbagVerifyPackage0A16VerificationTypeO"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(BinbagVerifyPackage.BinbagVerificationResult) -> ()",
@@ -3397,8 +3578,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19BinbagVerifyPackage0aB7ManagerC5start4type10completionyAA0A16VerificationTypeO_yAA0aH6ResultVctF",
-            "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC5start4type10completionyAA0A16VerificationTypeO_yAA0aH6ResultVctF",
+            "usr": "s:19BinbagVerifyPackage0aB7ManagerC5start4type5email10completionyAA0A16VerificationTypeO_SSSgyAA0aI6ResultVctF",
+            "mangledName": "$s19BinbagVerifyPackage0aB7ManagerC5start4type5email10completionyAA0A16VerificationTypeO_SSSgyAA0aI6ResultVctF",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "AccessControl",
@@ -19333,12 +19514,27 @@
           {
             "kind": "Function",
             "name": "presentBinbagDocumentScan",
-            "printedName": "presentBinbagDocumentScan(completion:)",
+            "printedName": "presentBinbagDocumentScan(email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -19360,8 +19556,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:So16UIViewControllerC19BinbagVerifyPackageE07presentC12DocumentScan10completionyyAC0C18VerificationResultVc_tF",
-            "mangledName": "$sSo16UIViewControllerC19BinbagVerifyPackageE07presentC12DocumentScan10completionyyAC0C18VerificationResultVc_tF",
+            "usr": "s:So16UIViewControllerC19BinbagVerifyPackageE07presentC12DocumentScan5email10completionySSSg_yAC0C18VerificationResultVctF",
+            "mangledName": "$sSo16UIViewControllerC19BinbagVerifyPackageE07presentC12DocumentScan5email10completionySSSg_yAC0C18VerificationResultVctF",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "Preconcurrency",
@@ -19374,12 +19570,18 @@
           {
             "kind": "Function",
             "name": "presentBinbagFaceDetection",
-            "printedName": "presentBinbagFaceDetection(completion:)",
+            "printedName": "presentBinbagFaceDetection(email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -19401,8 +19603,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:So16UIViewControllerC19BinbagVerifyPackageE07presentC13FaceDetection10completionyyAC0C18VerificationResultVc_tF",
-            "mangledName": "$sSo16UIViewControllerC19BinbagVerifyPackageE07presentC13FaceDetection10completionyyAC0C18VerificationResultVc_tF",
+            "usr": "s:So16UIViewControllerC19BinbagVerifyPackageE07presentC13FaceDetection5email10completionySS_yAC0C18VerificationResultVctF",
+            "mangledName": "$sSo16UIViewControllerC19BinbagVerifyPackageE07presentC13FaceDetection5email10completionySS_yAC0C18VerificationResultVctF",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "Preconcurrency",
@@ -19415,7 +19617,7 @@
           {
             "kind": "Function",
             "name": "presentBinbagVerification",
-            "printedName": "presentBinbagVerification(type:completion:)",
+            "printedName": "presentBinbagVerification(type:email:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19430,6 +19632,21 @@
                 "usr": "s:19BinbagVerifyPackage0A16VerificationTypeO"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(BinbagVerifyPackage.BinbagVerificationResult) -> ()",
@@ -19449,8 +19666,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:So16UIViewControllerC19BinbagVerifyPackageE07presentC12Verification4type10completionyAC0cG4TypeO_yAC0cG6ResultVctF",
-            "mangledName": "$sSo16UIViewControllerC19BinbagVerifyPackageE07presentC12Verification4type10completionyAC0cG4TypeO_yAC0cG6ResultVctF",
+            "usr": "s:So16UIViewControllerC19BinbagVerifyPackageE07presentC12Verification4type5email10completionyAC0cG4TypeO_SSSgyAC0cG6ResultVctF",
+            "mangledName": "$sSo16UIViewControllerC19BinbagVerifyPackageE07presentC12Verification4type5email10completionyAC0cG4TypeO_SSSgyAC0cG6ResultVctF",
             "moduleName": "BinbagVerifyPackage",
             "declAttributes": [
               "Preconcurrency",
@@ -19563,7 +19780,7 @@
           {
             "kind": "Function",
             "name": "binbagDocumentScan",
-            "printedName": "binbagDocumentScan(isPresented:onResult:)",
+            "printedName": "binbagDocumentScan(isPresented:email:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19593,6 +19810,21 @@
                 "usr": "s:7SwiftUI7BindingV"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(BinbagVerifyPackage.BinbagVerificationResult) -> ()",
@@ -19612,8 +19844,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP19BinbagVerifyPackageE18binbagDocumentScan11isPresented8onResultQrAA7BindingVySbG_yAD0d12VerificationM0VctF",
-            "mangledName": "$s7SwiftUI4ViewP19BinbagVerifyPackageE18binbagDocumentScan11isPresented8onResultQrAA7BindingVySbG_yAD0d12VerificationM0VctF",
+            "usr": "s:7SwiftUI4ViewP19BinbagVerifyPackageE18binbagDocumentScan11isPresented5email8onResultQrAA7BindingVySbG_SSSgyAD0d12VerificationN0VctF",
+            "mangledName": "$s7SwiftUI4ViewP19BinbagVerifyPackageE18binbagDocumentScan11isPresented5email8onResultQrAA7BindingVySbG_SSSgyAD0d12VerificationN0VctF",
             "moduleName": "BinbagVerifyPackage",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -19628,7 +19860,7 @@
           {
             "kind": "Function",
             "name": "binbagFaceDetection",
-            "printedName": "binbagFaceDetection(isPresented:onResult:)",
+            "printedName": "binbagFaceDetection(isPresented:email:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19658,6 +19890,12 @@
                 "usr": "s:7SwiftUI7BindingV"
               },
               {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(BinbagVerifyPackage.BinbagVerificationResult) -> ()",
@@ -19677,8 +19915,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP19BinbagVerifyPackageE19binbagFaceDetection11isPresented8onResultQrAA7BindingVySbG_yAD0d12VerificationM0VctF",
-            "mangledName": "$s7SwiftUI4ViewP19BinbagVerifyPackageE19binbagFaceDetection11isPresented8onResultQrAA7BindingVySbG_yAD0d12VerificationM0VctF",
+            "usr": "s:7SwiftUI4ViewP19BinbagVerifyPackageE19binbagFaceDetection11isPresented5email8onResultQrAA7BindingVySbG_SSyAD0d12VerificationN0VctF",
+            "mangledName": "$s7SwiftUI4ViewP19BinbagVerifyPackageE19binbagFaceDetection11isPresented5email8onResultQrAA7BindingVySbG_SSyAD0d12VerificationN0VctF",
             "moduleName": "BinbagVerifyPackage",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -19693,7 +19931,7 @@
           {
             "kind": "Function",
             "name": "binbagVerify",
-            "printedName": "binbagVerify(isPresented:type:onResult:)",
+            "printedName": "binbagVerify(isPresented:type:email:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19730,6 +19968,21 @@
                 "usr": "s:19BinbagVerifyPackage0A16VerificationTypeO"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(BinbagVerifyPackage.BinbagVerificationResult) -> ()",
@@ -19749,8 +20002,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP19BinbagVerifyPackageE06binbagE011isPresented4type8onResultQrAA7BindingVySbG_AD0D16VerificationTypeOyAD0dnL0VctF",
-            "mangledName": "$s7SwiftUI4ViewP19BinbagVerifyPackageE06binbagE011isPresented4type8onResultQrAA7BindingVySbG_AD0D16VerificationTypeOyAD0dnL0VctF",
+            "usr": "s:7SwiftUI4ViewP19BinbagVerifyPackageE06binbagE011isPresented4type5email8onResultQrAA7BindingVySbG_AD0D16VerificationTypeOSSSgyAD0doM0VctF",
+            "mangledName": "$s7SwiftUI4ViewP19BinbagVerifyPackageE06binbagE011isPresented4type5email8onResultQrAA7BindingVySbG_AD0D16VerificationTypeOSSSgyAD0doM0VctF",
             "moduleName": "BinbagVerifyPackage",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -22437,30 +22690,37 @@
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/BinbagVerifySwiftUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 7874,
+      "offset": 8814,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/BinbagVerifySwiftUI.swift",
       "kind": "StringLiteral",
-      "offset": 7922,
+      "offset": 8862,
       "length": 17,
       "value": "\"Verify Identity\""
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/BinbagVerifySwiftUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 8693,
+      "offset": 9716,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/BinbagVerifySwiftUI.swift",
       "kind": "StringLiteral",
-      "offset": 12223,
+      "offset": 14136,
       "length": 14,
       "value": "\"Not verified\""
+    },
+    {
+      "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/BinbagVerifySwiftUI.swift",
+      "kind": "StringLiteral",
+      "offset": 14194,
+      "length": 18,
+      "value": "\"user@example.com\""
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Library\/DesignableX\/UIViewX.swift",
@@ -23053,14 +23313,14 @@
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Screens\/VerifyDocument\/IDScanStepsVC.swift",
       "kind": "StringLiteral",
-      "offset": 26473,
+      "offset": 26476,
       "length": 15,
       "value": "\"chevron.right\""
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Screens\/VerifyDocument\/IDScanStepsVC.swift",
       "kind": "StringLiteral",
-      "offset": 26559,
+      "offset": 26562,
       "length": 23,
       "value": "\"checkmark.circle.fill\""
     },
