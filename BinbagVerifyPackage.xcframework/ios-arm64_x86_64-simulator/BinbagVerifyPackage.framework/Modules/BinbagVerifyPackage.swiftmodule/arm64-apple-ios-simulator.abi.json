@@ -17403,6 +17403,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BinbagVerifyPackage"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -22982,6 +22989,34 @@
       "value": "\"class\""
     },
     {
+      "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/ResourceBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 41,
+      "value": "\"BinbagVerifyPackage_BinbagVerifyPackage\""
+    },
+    {
+      "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/ResourceBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/ResourceBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1775,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/ResourceBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Screens\/VerifyDocument\/IDCaptureVC.swift",
       "kind": "BooleanLiteral",
       "offset": 645,
@@ -23740,238 +23775,238 @@
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3937,
+      "offset": 3943,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 4815,
+      "offset": 4821,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 4862,
+      "offset": 4868,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 9544,
+      "offset": 9550,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 10777,
+      "offset": 10783,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 34028,
+      "offset": 34034,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 35363,
+      "offset": 35369,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 35779,
+      "offset": 35785,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "Array",
-      "offset": 37175,
+      "offset": 37181,
       "length": 6,
       "value": "[3, 3]"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 37230,
+      "offset": 37236,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 40415,
+      "offset": 40421,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 40442,
+      "offset": 40448,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 40824,
+      "offset": 40830,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 40851,
+      "offset": 40857,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 47262,
+      "offset": 47268,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 47357,
+      "offset": 47363,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 57337,
+      "offset": 57343,
       "length": 28,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\""
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 57391,
+      "offset": 57397,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 60505,
+      "offset": 60511,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 64208,
+      "offset": 64214,
       "length": 22,
       "value": "\"MMM-dd-YYYY, hh:mm a\""
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 68509,
+      "offset": 68515,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 69090,
+      "offset": 69096,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 69093,
+      "offset": 69099,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 69101,
+      "offset": 69107,
       "length": 7,
       "value": "3"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 69110,
+      "offset": 69116,
       "length": 9,
       "value": "4"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 69121,
+      "offset": 69127,
       "length": 8,
       "value": "5"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 69131,
+      "offset": 69137,
       "length": 6,
       "value": "6"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 69139,
+      "offset": 69145,
       "length": 8,
       "value": "7"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 76588,
+      "offset": 76594,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 76904,
+      "offset": 76910,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 78757,
+      "offset": 78763,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 94111,
+      "offset": 94117,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 98117,
+      "offset": 98123,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/iroidandroid\/Documents\/Kartik\/Github\/Binbag-ios\/BinbagVerifyPackage\/Sources\/BinbagVerifyPackage\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 109226,
+      "offset": 109232,
       "length": 4,
       "value": "true"
     },
